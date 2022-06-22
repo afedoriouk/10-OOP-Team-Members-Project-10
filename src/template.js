@@ -89,9 +89,9 @@ module.exports = team => {
 </head>
 <body>
     <div class="container-fluid">
-    <div class="row team-area col-12 d-flex">
+   
             ${generateTeam(team)} 
-            </div>
+            
      </div>
 </body>
 </html>`
