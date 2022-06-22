@@ -1,6 +1,4 @@
-//Info about dynamic website
-
-
+//Generate Team
 
 const generateTeam = require("./src/template.js");
 console.log(generateTeam)
