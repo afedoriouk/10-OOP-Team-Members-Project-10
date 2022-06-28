@@ -1,3 +1,9 @@
+https://user-images.githubusercontent.com/98120553/176254598-23b98147-15be-4215-a985-3f17832c3729.mp4
+
+# 10-OOP-Team-Members-Project-10
+
+10-OOP-Team-Members-Project 10
+
 # 10 Object-Oriented Programming: Team Profile Generator
 
 Your challenge is to build a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person. Because testing is key to making code maintainable, you’ll also write unit tests for each part of your code and ensure that it passes all of them.
@@ -5,11 +11,13 @@ Your challenge is to build a Node.js command-line application that takes in info
 Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality and all of the tests passing. You’ll need to submit a link to the video **and** add it to the README of your project.
 
 **Note**: There is no starter code for this assignment.
+<img width="930" alt="10-OOP-Team-Members Project-Screenshot-1" src="https://user-images.githubusercontent.com/98120553/176264268-75b024f6-9e08-4ed6-a7e1-139372e214fd.png">
 
 ## User Story
 
 ```md
 AS A manager
+
 I WANT to generate a webpage that displays my team's basic info
 SO THAT I have quick access to their emails and GitHub profiles
 ```
@@ -42,7 +50,6 @@ The following image shows the generated HTML’s appearance and functionality. T
 
 ![HTML webpage titled “My Team” features five boxes listing employee names, titles, and other key info.](./Assets/10-object-oriented-programming-homework-demo.png)
 
-
 ## Getting Started
 
 This Challenge will combine many of the skills you’ve learned over the first ten weeks of this course. To help you get started, we’ve provided some guidelines in addition to the User Story and Acceptance Criteria.
@@ -57,16 +64,16 @@ It is recommended that you start with a directory structure that looks like this
 
 ```md
 .
-├── __tests__/             //jest tests
-│   ├── Employee.test.js
-│   ├── Engineer.test.js
-│   ├── Intern.test.js
-│   └── Manager.test.js
-├── dist/                  // rendered output (HTML) and CSS style sheet
-├── lib/                   // classes
-├── src/                   // template helper code
-├── .gitignore             // indicates which folders and files Git should ignore
-├── index.js               // runs the application
+├── **tests**/ //jest tests
+│ ├── Employee.test.js
+│ ├── Engineer.test.js
+│ ├── Intern.test.js
+│ └── Manager.test.js
+├── dist/ // rendered output (HTML) and CSS style sheet
+├── lib/ // classes
+├── src/ // template helper code
+├── .gitignore // indicates which folders and files Git should ignore
+├── index.js // runs the application
 └── package.json
 ```
 
@@ -76,56 +83,56 @@ The application must have these classes: `Employee`, `Manager`, `Engineer`, and 
 
 The first class is an `Employee` parent class with the following properties and methods:
 
-* `name`
+- `name`
 
-* `id`
+- `id`
 
-* `email`
+- `email`
 
-* `getName()`
+- `getName()`
 
-* `getId()`
+- `getId()`
 
-* `getEmail()`
+- `getEmail()`
 
-* `getRole()`   // Returns 'Employee'
+- `getRole()` // Returns 'Employee'
 
 The other three classes will extend `Employee`.
 
 In addition to `Employee`'s properties and methods, `Manager` will also have:
 
-* `officeNumber`
+- `officeNumber`
 
-* `getRole()`   // Overridden to return `Manager`
+- `getRole()` // Overridden to return `Manager`
 
 In addition to `Employee`'s properties and methods, `Engineer` will also have:
 
-* `github`  // GitHub username
+- `github` // GitHub username
 
-* `getGithub()`
+- `getGithub()`
 
-* `getRole()`   // Overridden to return `Engineer`
+- `getRole()` // Overridden to return `Engineer`
 
 In addition to `Employee`'s properties and methods, `Intern` will also have:
 
-* `school`
+- `school`
 
-* `getSchool()`
+- `getSchool()`
 
-* `getRole()`   // Overridden to return `Intern`
+- `getRole()` // Overridden to return `Intern`
 
 Finally, although it’s not a requirement, you should consider adding validation to ensure that the user input provided is in the proper expected format.
-
 
 ## Review
 
 You are required to submit the following for review:
 
-* A walkthrough video demonstrating the functionality of the application and passing tests.
+- A walkthrough video demonstrating the functionality of the application and passing tests.
 
-* A sample HTML file generated using your application.
+- A sample HTML file generated using your application.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+- The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
-- - -
+---
+
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
