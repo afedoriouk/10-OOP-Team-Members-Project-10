@@ -1,5 +1,5 @@
 //engineer constructor
-const Engineer = require('../lib/Engineer');
+const Engineer = require('../lib/engineer');
 
 //engineer object
 test ('creates an Engineer object',() =>{
